@@ -93,8 +93,7 @@ Hit the /help or tap on button to se available command on me.
 buttons = [
         [
         InlineKeyboardButton(
-            text="➕️ Add Dion Bot"
- to your group ➕️", url="t.me/DionXRobot?startgroup=true"
+            text="Add Dion Bot", url="t.me/DionXRobot?startgroup=true"
         ),
     ],
     [
