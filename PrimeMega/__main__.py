@@ -478,8 +478,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text="๏›› This advance command for Musicplayer."
-            "\n\n๏ Command for admins only."
+            text="● This advance command for Dion Musicplayer"
+            "\n\n● Command for admins only."
             "\n • `/userbotjoin` - For inviting the assistant to your groups."
             "\n • `/userbotleave` - Use this if you want the assistant leaving your groups."
             "\n • `/pause` - To pause the playback."
