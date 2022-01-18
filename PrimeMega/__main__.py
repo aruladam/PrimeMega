@@ -100,7 +100,7 @@ buttons = [
         InlineKeyboardButton(text="Support", url="https://t.me/DionXRobotSupport"
         ),
         InlineKeyboardButton(
-            text="Owner", url=https://t.me/seorangdion""
+            text="Owner", url="https://t.me/seorangdion""
         ),
     ],
     [
