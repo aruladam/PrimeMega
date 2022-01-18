@@ -81,7 +81,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
- ───「[Dion Bit
+ ───「[Dion Bot
 ](https://t.me/DionXRobot)」───
 *Hello {} !*
 ────────────────────────
@@ -93,7 +93,7 @@ Hit the /help or tap on button to se available command on me.
 buttons = [
         [
         InlineKeyboardButton(
-            text="➕️ Add Dion Bot
+            text="➕️ Add Me
  to your group ➕️", url="t.me/DionXRobot?startgroup=true"
         ),
     ],
