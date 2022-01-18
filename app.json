@@ -51,7 +51,7 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "1416529201"
+         "value": "1878075436"
      },
 
       "STRING_SESSION": {
@@ -74,7 +74,7 @@
 
       "BOT_ID": {
          "description": "to get your bot_id using other bot or userbot",
-         "value": ""
+         "value": "5024988976"
       },
 
       "OWNER_USERNAME": {
@@ -129,7 +129,7 @@
       "DEV_USERS": {
          "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Masha support then keep the current ID's here at they are and add yours.",
          "required": false,
-         "value": ""
+         "value": "1878075436"
      },
         "ARQ_API": {
             "description": "Get this from @ARQRobot.",
