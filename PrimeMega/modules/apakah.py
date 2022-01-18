@@ -4,16 +4,10 @@ from PrimeMega import telethn
 
 APAKAH_STRING = ["Iya", 
                  "Tidak", 
+                 "Yes" 
+                 "No" 
                  "Mungkin", 
-                 "Mungkin Tidak", 
-                 "Bisa jadi", 
-                 "Mungkin Tidak",
-                 "Tidak Mungkin",
-                 "YNTKTS",
-                 "Pala bapak kau pecah",
-                 "Apa iya?",
-                 "Tanya aja sama mamak kau tu pler",
-                 "Lu tanya gua, terus gua tanya siapa?"
+                 "Maybe", 
                  ]
 
 
@@ -21,6 +15,6 @@ APAKAH_STRING = ["Iya",
 async def apakah(event):
     quew = event.pattern_match.group(1)
     if not quew:
-        await event.reply('Berikan saya pertanyaan 😐')
+        await event.reply('Give me a question 😐')
         return
     await event.reply(random.choice(APAKAH_STRING))
