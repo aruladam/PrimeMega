@@ -784,7 +784,7 @@ def main():
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
             dispatcher.bot.sendMessage(
-                f@DionXRobot", 
+                f@{SUPPORT_CHAT}", 
                 "👋 Hi friends, I'm alive.",
                 parse_mode=ParseMode.MARKDOWN
             )
