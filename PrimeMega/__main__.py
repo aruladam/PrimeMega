@@ -439,7 +439,7 @@ def prime_about_callback(update, context):
     elif query.data == "prime_support":
         query.message.edit_text(
             text="*๏ Dion Bot support chats*"
-            "\nJoin My Support Group/Channel for see or report a problem on PrimeMega.",
+            "\nJoin My Support Group/Channel for see or report a problem on Dion Bot.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
