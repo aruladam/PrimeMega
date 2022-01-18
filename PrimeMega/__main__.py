@@ -476,9 +476,10 @@ def prime_about_callback(update, context):
 
 def Source_about_callback(update, context):
     query = update.callback_query
+    chat = update.effective_message
     if query.data == "source_":
         query.message.edit_text(
-            text=" This is command for Musicplayer"
+            text="๏›› This advance command for Musicplayer."
             "\n\n๏ Command for admins only."
             "\n • `/userbotjoin` - For inviting the assistant to your groups."
             "\n • `/userbotleave` - Use this if you want the assistant leaving your groups."
@@ -488,7 +489,7 @@ def Source_about_callback(update, context):
             "\n • `/end` - For end the playback."
             "\n • `/musicplayer <on/off>` - Toggle for turn ON or turn OFF the musicplayer."
             "\n\n๏ Command for all members."
-            "\n • `/play` or `/ytp` <query> - Playing music via YouTube."
+            "\n • `/play` or `/ytp` <query> - Playing music via YouTube.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
