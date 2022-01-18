@@ -1,5 +1,5 @@
 {
-      "name": "Prime Mega",
+      "name": "Dion Bot",
       "description": "A Powerful  Telegram group management bot with autobots theme.",
       "keywords": [
          "telegram",
@@ -10,7 +10,7 @@
       ],
     
    "logo":    "https://telegra.ph/file/1da0ff9b5983912852f83.jpg",  
-   "repository": "https://github.com/Tonic990/PrimeMega",
+   "repository": "https://github.com/SeorangDion/Dion-PrimeMega",
    "addons": [
           {
          "options": {
@@ -51,7 +51,7 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "1416529201"
+         "value": "1780335957"
      },
 
       "STRING_SESSION": {
@@ -69,22 +69,22 @@
       },
       "BOT_USERNAME": {
          "description": "username of your bot without the @",
-         "value": "PrimeMegaBot"
+         "value": "DionXRobot"
       },
 
       "BOT_ID": {
          "description": "to get your bot_id using other bot or userbot",
-         "value": ""
+         "value": "5061346610"
       },
 
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "Bukan_guudlooking"
+         "value": "SeorangDion"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to masha support than consider you made an enemy.",
          "required": true,
-         "value": "PrimeSupportGroup"
+         "value": "DionXRobotSupport"
       },
       "MONGO_DB_URI": {
          "description": "Required for database connections.",
@@ -102,34 +102,34 @@
      "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
          "required": true,
-         "value": "-1001376025003"
+         "value": "-1001529049608"
       },
       "JOIN_LOGGER": {
          "description": "A channel where bot will print who added it to what group, useful during debugging or spam handling.",
          "required": true,
-         "value": "-1001376025003"
+         "value": "-1001652634433"
       },      
       "CASH_API_KEY": {
          "description": "Required for currency converter. Get yours from https://www.alphavantage.co/support/#api-key",
          "required": true,
-         "value": "-xyz"
+         "value": "V7NS1NBFEL4X24L6"
       },
       "TIME_API_KEY": {
          "description": "Required for timezone information. Get yours from https://timezonedb.com/api",
          "required": true,
-         "value": "-xyz"
+         "value": "2AS711XS1O9B"
      }, 
 
       "API_OPENWEATHER": {
         "description": "Get your own APPID from https://api.openweathermap.org/data/2.5/weather",
-        "value": "",
+        "value": "b84d0dea12baa6acf6c22f41cea472b5",
         "required": false
       },
 
       "DEV_USERS": {
          "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Masha support then keep the current ID's here at they are and add yours.",
          "required": false,
-         "value": ""
+         "value": "1780335957"
      },
         "ARQ_API": {
             "description": "Get this from @ARQRobot.",
@@ -148,22 +148,22 @@
       "DRAGONS": {
          "description": "A space separated list of user IDs who you want to assign as sudo users.",
          "required": false,
-         "value": ""
+         "value": "1867048626"
       },
       "DEMONS": {
          "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
          "required": false,
-         "value": ""
+         "value": "1867048626"
       },
       "TIGERS": {
          "description": "A space separated list of user IDs who you wanna assign as tiger users.",
          "required": false,
-         "value": ""
+         "value": "1867048626"
       },
       "WOLVES": {
          "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
          "required": false,
-         "value": ""
+         "value": "1867048626"
       },
       "ENV": {
          "description": "Setting this to ANYTHING will enable environment variables. Leave it as it is",
@@ -192,7 +192,7 @@
       "BL_CHATS": {
          "description": "List of chats you want blacklisted.",
          "required": false,
-         "value": ""
+         "value": "-1001532476264"
       },
       "ALLOW_EXCL": {
          "description": "Set this to True if you want ! to be a command prefix along with /. Recommended is True",
@@ -219,7 +219,7 @@
       "WALL_API": {
          "description": "Required for wallpaper. Get your's from https://wall.alphacoders.com/",
          "required": false,
-         "value": ""
+         "value": "CAACAgUAAx0CW7dSyQACMOBh5nMYpiMVCEMAAfG59bzimlqzB3wAAv8FAAJ0jClWGOmomx0OeIkjBA"
       }
       
    }
