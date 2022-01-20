@@ -92,11 +92,11 @@ Hit the /help or tap on button to se available command on me.
 buttons = [
         [
         InlineKeyboardButton(
-            text="[>Add Adam Bot to your group<]", url="t.me/DionXRobot?startgroup=true"
+            text="[>Add Adam Bot to your group<]", url="t.me/adamXRobot?startgroup=true"
         ),
     ],
     [
-        InlineKeyboardButton(text="Support", url="https://t.me/wibu_telgram"
+        InlineKeyboardButton(text="🚑Support", url="https://t.me/wibu_telgram"
         ),
         InlineKeyboardButton(
             text="TryInline", switch_inline_query_current_chat=""
