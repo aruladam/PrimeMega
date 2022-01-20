@@ -81,11 +81,10 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
- ───「[Dion Bot
-](https://t.me/DionXRobot)」───
+ ───「[Adam Robot](https://t.me/adamxrobot)」───
 *Hello {} !*
 ────────────────────────
-Dion bot a powerful group management bot built to help you manage your group!
+Adam Robot a powerful group management bot built to help you manage your group!
 ────────────────────
 Hit the /help or tap on button to se available command on me.
 """
@@ -93,18 +92,18 @@ Hit the /help or tap on button to se available command on me.
 buttons = [
         [
         InlineKeyboardButton(
-            text="➕️ Add Dion Bot to your group ➕️", url="t.me/DionXRobot?startgroup=true"
+            text="[>Add Adam Bot to your group<]", url="t.me/DionXRobot?startgroup=true"
         ),
     ],
     [
-        InlineKeyboardButton(text="Support", url="https://t.me/DionXRobotSupport"
+        InlineKeyboardButton(text="Support", url="https://t.me/wibu_telgram"
         ),
         InlineKeyboardButton(
             text="TryInline", switch_inline_query_current_chat=""
         ),
     ],
     [
-        InlineKeyboardButton(text="Help & Commands❔", callback_data="help_back"
+        InlineKeyboardButton(text="❔ Help", callback_data="help_back"
         ),
     ],
 ]
@@ -116,7 +115,7 @@ Click on the button bellow to get description about specifics command."""
 PRIME_IMG = "https://telegra.ph/file/c02bcabfc3de3ffa9bed6.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting @SeorangDion \
+ You can support the project by contacting @skyiarul \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
