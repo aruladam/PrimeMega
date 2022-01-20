@@ -96,7 +96,7 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="🚑Support", url="https://t.me/wibu_telgram"
+        InlineKeyboardButton(text="🚑Support", url="https://t.me/wibu_telegram"
         ),
         InlineKeyboardButton(
             text="TryInline", switch_inline_query_current_chat=""
