@@ -366,9 +366,9 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "Health", url="https://t.me/DionXRobotUpdates"),
+                                "Health", url="https://t.me/wibu_telegram"),
                             InlineKeyboardButton(
-                                "Disaster", url="https://t.me/DionXRobotUpdates")
+                                "Disaster", url="https://t.me/wibu_telegram")
                         ],
                     ]
                 ),
@@ -384,9 +384,9 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "Health", url="https://t.me/DionXRobotUpdates"),
+                                "Health", url="https://t.me/wibu_telegram"),
                             InlineKeyboardButton(
-                                "Disaster", url="https://t.me/DionXRobotUpdates")
+                                "Disaster", url="https://t.me/wibu_telegram")
                         ],
                     ]
                 ),
@@ -458,7 +458,7 @@ def set_about_me(update: Update, context: CallbackContext):
 
 @sudo_plus
 def stats(update: Update, context: CallbackContext):
-    stats = "❂ <b>Stats For <a href='https://t.me/DionXRobot'>Dion Bot</a>:</b>\n" + "\n".join([mod.__stats__() for mod in STATS])
+    stats = "❂ <b>Stats For <a href='https://t.me/adamxrobot'>Adam Robot</a>:</b>\n" + "\n".join([mod.__stats__() for mod in STATS])
     result = re.sub(r"(\d+)", r"<code>\1</code>", stats)
     update.effective_message.reply_text(
         result,
