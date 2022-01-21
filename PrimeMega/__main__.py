@@ -81,7 +81,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
- ───「[Adam Robot](https://t.me/adamxrobot)」───
+ ───「[{}](https://telegra.ph/file/534f3d9a42b602f73ce2d.jpg)」───
 *Hello {} !*
 ────────────────────────
 Adam Robot bot manajemen grup yang kuat yang dibuat untuk membantu Anda mengelola grup Anda!
