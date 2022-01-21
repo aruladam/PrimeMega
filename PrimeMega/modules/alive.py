@@ -9,16 +9,16 @@ from PrimeMega.events import register
 from PrimeMega import telethn as tbot
 
 
-PHOTO = "https://telegra.ph/file/3898f51ac3e9b4b098283.jpg"
+PHOTO = "https://telegra.ph/file/534f3d9a42b602f73ce2d.jpg"
 
 @register(pattern=("/alive"))
 async def awake(event):
   PRIME = f"**Hi [{event.sender.first_name}](tg://user?id={event.sender.id}), I'm Dion Bot.** \n\n"
   PRIME += "⚪ **I'm Working Properly** \n\n"
-  PRIME += f"⚪ **My Master : [Dion](https://t.me/seorangdion)** \n\n"
+  PRIME += f"⚪ **My Master : [Arul](https://t.me/skyiarul)** \n\n"
   PRIME += f"⚪ **Library Version :** `{telever}` \n\n"
   PRIME += f"⚪ **Telethon Version :** `{tlhver}` \n\n"
   PRIME += f"⚪ **Pyrogram Version :** `{pyrover}` \n\n"
   PRIME += "**Thanks For Adding Me Here ❤️**"
-  BUTTON = [[Button.url("ʜᴇʟᴘ​", "https://t.me/DionXRobot?start=help"), Button.url("sᴜᴘᴘᴏʀᴛ​", "https://t.me/DionXSupport")]]
+  BUTTON = [[Button.url("ʜᴇʟᴘ​", "https://t.me/AdamXRobot?start=help"), Button.url("sᴜᴘᴘᴏʀᴛ​", "https://t.me/https://t.me/updatebotsadam")]]
   await tbot.send_file(event.chat_id, PHOTO, caption=PRIME,  buttons=BUTTON)
