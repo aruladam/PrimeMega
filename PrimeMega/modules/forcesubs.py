@@ -84,7 +84,7 @@ def _check_member(client, message):
             except UserNotParticipant:
                 try:
                     sent_message = message.reply_text(
-                        "Welcome {} 🙏 \n **You haven't joined our @{} Channel yet**👷 \n \nPlease Join [Our Channel](https://t.me/{}) and hit the **UNMUTE ME** Button. \n \n ".format(
+                        "Welcome {} 🙏 \n **anda belum bergabung dengan @{} Channel belum **👷 \n \nPlease Join [Our Channel](https://t.me/{}) and hit the **UNMUTE SAYA** Button. \n \n ".format(
                             message.from_user.mention, channel, channel
                         ),
                         disable_web_page_preview=True,
@@ -92,13 +92,13 @@ def _check_member(client, message):
                             [
                                 [
                                     InlineKeyboardButton(
-                                        "Join Channel",
+                                        "gabung Channel",
                                         url="https://t.me/{}".format(channel),
                                     )
                                 ],
                                 [
                                     InlineKeyboardButton(
-                                        "Unmute Me", callback_data="onUnMuteRequest"
+                                        "Unmute Saya", callback_data="onUnMuteRequest"
                                     )
                                 ],
                             ]
@@ -109,7 +109,7 @@ def _check_member(client, message):
                     )
                 except ChatAdminRequired:
                     sent_message.edit(
-                        "😕 **Dion Bot is not admin here..**\n__Give me ban permissions and retry.. \n#Ending FSub...__"
+                        "😕 **Adam Bot is not admin here..**\n__Give me ban permissions and retry.. \n#Ending FSub...__"
                     )
 
             except ChatAdminRequired:
@@ -179,7 +179,7 @@ def config(client, message):
 
 __help__ = """
 *Force Subscribe:*
-❂ Dion Bot can mute members who are not subscribed your channel until they subscribe
+❂ adam Bot can mute members who are not subscribed your channel until they subscribe
 ❂ When enabled I will mute unsubscribed members and show them a unmute button. When they pressed the button I will unmute them
 ❂*Setup*
 *Only creator*
