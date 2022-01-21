@@ -84,9 +84,9 @@ PM_START_TEXT = """
  ───「[Adam Robot](https://t.me/adamxrobot)」───
 *Hello {} !*
 ────────────────────────
-Adam Robot a powerful group management bot built to help you manage your group!
+Adam Robot bot manajemen grup yang kuat yang dibuat untuk membantu Anda mengelola grup Anda!
 ────────────────────
-Hit the /help or tap on button to se available command on me.
+Tekan /help atau ketuk tombol untuk melihat perintah yang tersedia.
 """
 
 buttons = [
@@ -110,7 +110,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-Click on the button bellow to get description about specifics command."""
+Klik tombol di bawah untuk mendapatkan deskripsi tentang perintah spesifik."""
 
 PRIME_IMG = "https://telegra.ph/file/c02bcabfc3de3ffa9bed6.jpg"
 
@@ -362,7 +362,7 @@ def prime_about_callback(update, context):
     query = update.callback_query
     if query.data == "prime_":
         query.message.edit_text(
-            text="๏ I'm *Dion Bot*, a powerful group management bot built to help you manage your group easily."
+            text="๏ I'm *Adam Bot*, a powerful group management bot built to help you manage your group easily."
             "\n• I can restrict users."
             "\n• I can greet users with customizable welcome messages and even set a group's rules."
             "\n• I have an advanced anti-flood system."
@@ -437,14 +437,14 @@ def prime_about_callback(update, context):
         )
     elif query.data == "prime_support":
         query.message.edit_text(
-            text="*๏ Dion Bot support chats*"
-            "\nJoin My Support Group/Channel for see or report a problem on Dion Bot.",
+            text="*๏ Adam Bot support chats*"
+            "\nJoin My Support Group/Channel for see or report a problem on Adam Bot.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/DionXRobotSupport"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/DionXRobotUpdates"),
+                    InlineKeyboardButton(text="🚑Support", url="t.me/wibu_telegram"),
+                    InlineKeyboardButton(text="Updates", url="https://t.me/updatebotsadam"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="prime_"),
@@ -564,7 +564,7 @@ def get_help(update: Update, context: CallbackContext):
             chat.id,
             text,
             InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Go Back", callback_data="help_back")]]
+                [[InlineKeyboardButton(text="「kembali 」", callback_data="help_back")]]
             ),
         )
 
@@ -785,7 +785,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}", 
-                "👋 Hi friends, I'm alive.",
+                "👋 Hi Teman-teman,adam robot hidup kembali.",
                 parse_mode=ParseMode.MARKDOWN
             )
         except Unauthorized:
