@@ -80,23 +80,13 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-HELP_MSG = "Click the button below to get help manu in your pm."
-START_MSG = "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>"
-    
 PM_START_TEXT = """
-────「 [{}](https://telegra.ph/file/2909a312d9438798d237a.png) 」────
-*Hola! {},*
-*I am an Anime themed advance group management bot with a lot of Sexy Features.*
-➖➖➖➖➖➖➖➖➖➖➖➖➖
-• *Uptime:* `{}`
-• `{}` *users, across* `{}` *chats.*
-➖➖➖➖➖➖➖➖➖➖➖➖➖
-➛ Try The Help Buttons Below To Know My Abilities ××
-"""
-
-GROUP_START_TEXT = """
-I'm awake already!
-Haven't slept since: {}
+ ───「[Adam Robot](https://t.me/adamXRobot)」───
+*Hello {} !*
+────────────────────────
+Adam bot a powerful group management bot built to help you manage your group!
+────────────────────
+Hit the /help or tap on button to se available command on me.
 """
 
 
