@@ -91,20 +91,37 @@ Hit the /help or tap on button to se available command on me.
 
 
 buttons = [
-        [
+    [
         InlineKeyboardButton(
-            text="[>Add Adam Bot to your group<]", url="t.me/adamXRobot?startgroup=true"
-        ),
+            text="➕️ ADD ADAM TO YOUR GROUP ➕️",url="t.me/Gabi_Braun_Robot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="🚑Support", url="https://t.me/wibu_telegram"
-        ),
         InlineKeyboardButton(
-            text="TryInline", switch_inline_query_current_chat=""
-        ),
+              text="🔐 Command & Help", callback_data="help_back"),
+     
+    ],
+    [     InlineKeyboardButton(
+            text="🎦 H.S.A Group", url="https://telegram.dog/Hindisubsanimes"),
+    
     ],
     [
-        InlineKeyboardButton(text="❔ Help", callback_data="help_back"
+        InlineKeyboardButton(
+            text="📮 Update Channel", url="https://telegram.dog/EldianGabi_UpdateChannel"),
+    ],
+    [
+        InlineKeyboardButton(
+            text="📑 Loges", url="https://t.me/Gabi_Support_Log"),
+          
+
+
+InlineKeyboardButton(
+            text="🐱 SUPPORT", url="https://telegram.dog/wibu_telegram"
+        ),
+
+    ],
+    [
+        InlineKeyboardButton(
+                    text="🗄️ Source Code", url="https://www.com/xnxx"
         ),
     ],
 ]
