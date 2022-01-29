@@ -81,10 +81,10 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
- ───「[Adam Robot](https://t.me/adamXRobot)」───
+ ───「[Adam Robot](https://t.me/AdamXRobot)」───
 *Hello {} !*
 ────────────────────────
-Adam bot a powerful group management bot built to help you manage your group!
+Adam Robot a powerful group management bot built to help you manage your group!
 ────────────────────
 Hit the /help or tap on button to se available command on me.
 """
@@ -92,37 +92,22 @@ Hit the /help or tap on button to se available command on me.
 
 buttons = [
     [
-        InlineKeyboardButton(
-            text="➕️ ADD ADAM TO YOUR GROUP ➕️",url="t.me/adamxRobot?startgroup=true"),
+        InlineKeyboardButton(text="🔐 Command & Help", callback_data="help_back"),
     ],
     [
+        InlineKeyboardButton(text="About", callback_data="prime_"),
         InlineKeyboardButton(
-              text="🔐 Command & Help", callback_data="help_back"),
-     
-    ],
-    [     InlineKeyboardButton(
-            text="🎦 H.S.A Group", url="https://telegram.dog/Hindisubsanimes"),
-    
-    ],
-    [
-        InlineKeyboardButton(
-            text="📮 Update Channel", url="https://telegram.dog/wibu_telegram"),
-    ],
-    [
-        InlineKeyboardButton(
-            text="📑 Loges", url="https://t.me/wibu_telegram"),
-          
-
-
-InlineKeyboardButton(
-            text="🐱 SUPPORT", url="https://telegram.dog/wibu_telegram"
+            text="Try inline​​", switch_inline_query_current_chat=""
         ),
-
+    ],
+    [
+        InlineKeyboardButton(text="Updates", url="t.me/updatebotsadam"),
+        InlineKeyboardButton(
+            text="support", url="t.me/wibu_telegram"),
     ],
     [
         InlineKeyboardButton(
-                    text="🗄️ Source Code", url="https://www.com/xnxx"
-        ),
+            text="➗ ADD ADAM ROBOT TO YOUR GROUP ➗", url="t.me/AdamXRobot?startgroup=new"),
     ],
 ]
 
@@ -130,10 +115,10 @@ InlineKeyboardButton(
 HELP_STRINGS = """
 Klik tombol di bawah untuk mendapatkan deskripsi tentang perintah spesifik."""
 
-PRIME_IMG = "https://telegra.ph/file/c02bcabfc3de3ffa9bed6.jpg"
+PRIME_IMG = "https://telegra.ph/file/c89b0f083ec5bae43735c.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting @skyiarul \
+ You can support the project by contacting @Skyiarul \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -249,7 +234,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            f"<b>Hi I'm Dion Bi!</b>\n<b>Started working since:</b> <code>{uptime}</code>",
+            f"<b>Hi I'm Adam Robot!</b>\n<b>Started working since:</b> <code>{uptime}</code>",
             parse_mode=ParseMode.HTML
        )
 
@@ -380,15 +365,15 @@ def prime_about_callback(update, context):
     query = update.callback_query
     if query.data == "prime_":
         query.message.edit_text(
-            text="๏ I'm *Adam Bot*, a powerful group management bot built to help you manage your group easily."
+            text="๏ I'm *Adam Robot*, a powerful group management bot built to help you manage your group easily."
             "\n• I can restrict users."
             "\n• I can greet users with customizable welcome messages and even set a group's rules."
             "\n• I have an advanced anti-flood system."
             "\n• I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc."
             "\n• I have a note keeping system, blacklists, and even predetermined replies on certain keywords."
             "\n• I check for admins' permissions before executing any command and more stuffs"
-            "\n\n_Dion Bot's licensed under the GNU General Public License v3.0_"
-            "\n\n Click on button bellow to get basic help for Dion Bot.",
+            "\n\n_AdamRobot's licensed under the GNU General Public License v3.0_"
+            "\n\n Click on button bellow to get basic help for Adam Robot.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -428,7 +413,7 @@ def prime_about_callback(update, context):
     elif query.data == "prime_admin":
         query.message.edit_text(
             text=f"*๏ Let's make your group bit effective now*"
-            "\nCongragulations, Dion Bot now ready to manage your group."
+            "\nCongragulations, Adam Robot now ready to manage your group."
             "\n\n*Admin Tools*"
             "\nBasic Admin tools help you to protect and powerup your group."
             "\nYou can ban members, Kick members, Promote someone as admin through commands of bot."
@@ -455,8 +440,8 @@ def prime_about_callback(update, context):
         )
     elif query.data == "prime_support":
         query.message.edit_text(
-            text="*๏ Adam Bot support chats*"
-            "\nJoin My Support Group/Channel for see or report a problem on Adam Bot.",
+            text="*๏ Adam Robot support chats*"
+            "\nJoin My Support Group/Channel for see or report a problem on Adam Robot.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
@@ -475,12 +460,13 @@ def prime_about_callback(update, context):
 
     elif query.data == "prime_credit":
         query.message.edit_text(
-            text=f"<b>๏ Credis for Dion Bot</b>\n"
-            f"\nHere Developers Making The DionXRobot",
+            text=f"<b>๏ Credis for Adam Robot</b>\n"
+            f"\nHere Developers Making The Adam Robot",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
+                    InlineKeyboardButton(text="Arul", url="t.me/Skyiarul"),
                     InlineKeyboardButton(text="Dion", url="t.me/SeorangDion"),
                  ],
                  [
@@ -506,7 +492,7 @@ def Source_about_callback(update, context):
             "\n • `/end` - For end the playback."
             "\n • `/musicplayer <on/off>` - Toggle for turn ON or turn OFF the musicplayer."
             "\n\n๏ Command for all members."
-            "\n • `/play` or `/ytp` <query> - Playing music via YouTube.",
+            "\n • `/play` <query> - Playing music via YouTube.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -754,7 +740,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 1606221784:
+        if OWNER_ID != 1878075436:
             update.effective_message.reply_text(
                 "I'm free for everyone ❤️ If you wanna make me smile, just join"
                 "[My Channel]({})".format(DONATION_LINK),
@@ -803,7 +789,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}", 
-                "👋 Hi Teman-teman,adam robot hidup kembali.",
+                "👋 Hi Teman-teman,Adam Robot hidup kembali.",
                 parse_mode=ParseMode.MARKDOWN
             )
         except Unauthorized:
