@@ -93,7 +93,7 @@ Hit the /help or tap on button to se available command on me.
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD ADAM TO YOUR GROUP ➕️",url="t.me/Gabi_Braun_Robot?startgroup=true"),
+            text="➕️ ADD ADAM TO YOUR GROUP ➕️",url="t.me/adamxRobot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(
@@ -106,11 +106,11 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="📮 Update Channel", url="https://telegram.dog/EldianGabi_UpdateChannel"),
+            text="📮 Update Channel", url="https://telegram.dog/wibu_telegram"),
     ],
     [
         InlineKeyboardButton(
-            text="📑 Loges", url="https://t.me/Gabi_Support_Log"),
+            text="📑 Loges", url="https://t.me/wibu_telegram"),
           
 
 
