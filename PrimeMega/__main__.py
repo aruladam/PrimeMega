@@ -92,22 +92,37 @@ Hit the /help or tap on button to se available command on me.
 
 buttons = [
     [
-        InlineKeyboardButton(text="🔐 Command & Help", callback_data="help_back"),
+        InlineKeyboardButton(
+            text="➕️ ADD ADAM TO YOUR GROUP ➕️",url="t.me/adamxrobot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="About", callback_data="prime_"),
         InlineKeyboardButton(
-            text="Try inline​​", switch_inline_query_current_chat=""
+              text="🔐 Command & Help", callback_data="help_back"),
+     
+    ],
+    [     InlineKeyboardButton(
+            text="🎦 ANIME Group", url="https://telegram.dog/wibu_Telegram"),
+    
+    ],
+    [
+        InlineKeyboardButton(
+            text="📮 Update Channel", url="https://telegram.dog/updatebotsadam"),
+    ],
+    [
+        InlineKeyboardButton(
+            text="📑 Loges", url="https://t.me/logsgbanadam"),
+          
+
+
+InlineKeyboardButton(
+            text="🐱 SUPPORT", url="https://telegram.dog/wibu_telegram"
         ),
-    ],
-    [
-        InlineKeyboardButton(text="Updates", url="t.me/updatebotsadam"),
-        InlineKeyboardButton(
-            text="support", url="t.me/wibu_telegram"),
+
     ],
     [
         InlineKeyboardButton(
-            text="➗ ADD ADAM ROBOT TO YOUR GROUP ➗", url="t.me/AdamXRobot?startgroup=new"),
+                    text="🗄️ Source Code", url="www.xnxx.com"
+        ),
     ],
 ]
 
