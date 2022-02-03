@@ -112,10 +112,6 @@ buttons = [
         InlineKeyboardButton(
             text="📑 Loges", url="https://t.me/logsgbanadam"),
           
-
-
-InlineKeyboardButton(
-            text="🐱 SUPPORT", url="https://telegram.dog/wibu_telegram"
         ),
 
     ],
