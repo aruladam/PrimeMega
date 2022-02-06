@@ -117,7 +117,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-                    text="🗄️ Source Code", url="www.xnxx.com"
+                    text="👑Owner", url=""https://t.me/skyiarul"
         ),
     ],
 ]
