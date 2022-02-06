@@ -97,7 +97,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-              text="🔐 Command & Help", callback_data="help_back"), 
+            text="🔐 Command & Help", callback_data="help_back"), 
     ],
     [
         InlineKeyboardButton(
@@ -109,11 +109,11 @@ buttons = [
         InlineKeyboardButton(
             text="📑 Loges", url="https://t.me/logsgbanadam"),
         InlineKeyboardButton(
-            text="⚜ About", callback_data="prime_"),
+            text="About", callback_data="prime_"),
     ],
     [
         InlineKeyboardButton(
-                    text="👑Owner", url=""https://t.me/skyiarul"
+            text="Owner", url=""https://t.me/skyiarul"
         ),
     ],
 ]
