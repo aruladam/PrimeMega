@@ -101,7 +101,7 @@ buttons = [
      
     ],
     [     InlineKeyboardButton(
-            text="🎦 ANIME Group", url="https://telegram.dog/wibu_Telegram"),
+            text=""ᴀʙᴏᴜᴛ", callback_data="Adam_"),
     
     ],
     [
