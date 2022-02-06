@@ -311,10 +311,10 @@ def info(update: Update, context: CallbackContext):
     disaster_level_present = False
 
     if user.id == OWNER_ID:
-        text += "\n\nThe Disaster level of this person is 'King'."
+        text += "\n\nThe Disaster level of this person is 'God'."
         disaster_level_present = True
     elif user.id in DEV_USERS:
-        text += "\n\nThis user is member of 'Prince'."
+        text += "\n\nThis user is member of 'Hero'."
         disaster_level_present = True
     elif user.id in DRAGONS:
         text += "\n\nThe Disaster level of this person is 'Emperor'."
@@ -328,9 +328,6 @@ def info(update: Update, context: CallbackContext):
     elif user.id in WOLVES:
         text += "\n\nThe Disaster level of this person is 'Soldier'."
         disaster_level_present = True
-    elif user.id == 1416529201:
-         text += "\n\nOwner Of A Bot. Queen Of @Bukan_guudlooking. Bot Name Inspired From 'JoJo'."
-         disaster_level_present = True
 
     try:
         user_member = chat.get_member(user.id)
@@ -366,9 +363,9 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "Health", url="https://t.me/wibu_telegram"),
+                                "Health", url="https://t.me/UpdateMorderd"),
                             InlineKeyboardButton(
-                                "Disaster", url="https://t.me/wibu_telegram")
+                                "Disaster", url="https://t.me/MordredSupport")
                         ],
                     ]
                 ),
@@ -384,9 +381,9 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "Health", url="https://t.me/wibu_telegram"),
+                                "Health", url="https://t.me/UpdateMorderd"),
                             InlineKeyboardButton(
-                                "Disaster", url="https://t.me/wibu_telegram")
+                                "Disaster", url="https://t.me/MordredSupport")
                         ],
                     ]
                 ),
@@ -458,7 +455,7 @@ def set_about_me(update: Update, context: CallbackContext):
 
 @sudo_plus
 def stats(update: Update, context: CallbackContext):
-    stats = "❂ <b>Stats For <a href='https://t.me/adamxrobot'>Adam Robot</a>:</b>\n" + "\n".join([mod.__stats__() for mod in STATS])
+    stats = "❂ <b>Stats For <a href='https://t.me/MordredRobot'>Mordred Pendragon</a>:</b>\n" + "\n".join([mod.__stats__() for mod in STATS])
     result = re.sub(r"(\d+)", r"<code>\1</code>", stats)
     update.effective_message.reply_text(
         result,
