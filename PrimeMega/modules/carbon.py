@@ -27,19 +27,19 @@ async def carbon_func(_, message):
 @pbot.on_message(filters.command("repo"))
 async def repo(_, message):
     await message.reply_text(
-        f"""✨ **Hey I'm Prime Mega** 
-**Owner repo : [『TØNIC』](https://t.me/Bukan_guudlooking)**
+        f"""✨ **Hey I'm Mordred Pendragon** 
+**Owner repo : [『Adam』](https://t.me/Skyiarul)**
 **Python Version :** `{y()}`
 **Library Version :** `{o}`
 **Telethon Version :** `{s}`
 **Pyrogram Version :** `{z}`
-**Create your own with click button bellow.**
+**Create your own repo, my repo is private.**
 """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Repo", url="https://github.com/Tonic990/PrimeMega"), 
-                    InlineKeyboardButton("Support", url="https://t.me/PrimeSupportGroup")
+                    InlineKeyboardButton("Updates", url="https://t.me/UpdateMorderd"), 
+                    InlineKeyboardButton("Support", url="https://t.me/MordredSupport")
                 ]
             ]
         ),
