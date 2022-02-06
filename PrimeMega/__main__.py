@@ -97,12 +97,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-              text="🔐 Command & Help", callback_data="help_back"),
-     
-    ],
-    [     InlineKeyboardButton(
-            text=""ᴀʙᴏᴜᴛ", callback_data="Skyzu_"),
-    
+              text="🔐 Command & Help", callback_data="help_back"), 
     ],
     [
         InlineKeyboardButton(
