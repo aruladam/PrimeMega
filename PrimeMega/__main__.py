@@ -113,7 +113,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="Owner", url=""https://t.me/skyiarul"
+            text="Owner", url="https://t.me/skyiarul"
         ),
     ],
 ]
