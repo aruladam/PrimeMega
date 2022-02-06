@@ -84,7 +84,7 @@ PM_START_TEXT = """
  ───「[Mordred Robot](https://t.me/MordredRobot)」───
 *Hello {} !*
 ────────────────────────
-Adam Robot a powerful group management bot built to help you manage your group!
+Mordred Robot a powerful group management bot built to help you manage your group!
 ────────────────────
 Hit the /help or tap on button to se available command on me.
 """
