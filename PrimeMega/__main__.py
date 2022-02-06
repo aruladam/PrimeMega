@@ -101,7 +101,7 @@ buttons = [
      
     ],
     [     InlineKeyboardButton(
-            text=""ᴀʙᴏᴜᴛ", callback_data="Adam_"),
+            text=""ᴀʙᴏᴜᴛ", callback_data="Skyzu_"),
     
     ],
     [
