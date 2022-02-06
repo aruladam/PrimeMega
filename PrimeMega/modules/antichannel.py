@@ -41,7 +41,7 @@ def eliminate_channel(update: Update, context: CallbackContext):
         bot.ban_chat_sender_chat(sender_chat_id=sender_chat.id, chat_id=chat.id)
         
 __help__ = """
-──「 Anti-Channels 」(https://t.me/adamxrobot)」──
+──「 Anti-Channels 」──
     ⚠️ WARNING ⚠️
 *IF YOU USE THIS MODE, THE RESULT IS IN THE GROUP FOREVER YOU CAN'T CHAT USING THE CHANNEL*
 Anti Channel Mode is a mode to automatically ban users who chat using Channels. 
