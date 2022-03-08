@@ -103,7 +103,7 @@ buttons = [
         InlineKeyboardButton(
             text="📮 Update Channel", url="https://telegram.dog/UpdateMorderd"),
         InlineKeyboardButton(
-            text="📚 Support Group", url="https://telegram.dog/MordredSupport"),
+            text="📚 Support Group", url="https://telegram.dog/wibu_Telegram"),
     ],
     [
         InlineKeyboardButton(
@@ -454,7 +454,7 @@ def prime_about_callback(update, context):
                 [
                  [
                     InlineKeyboardButton(text="🚑Support", url="t.me/wibu_telegram"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/updatebotsadam"),
+                    InlineKeyboardButton(text="Updates", url="https://t.me/UpdateMorderd"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="prime_"),
